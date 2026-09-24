@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    background-color: #092328;
+    height: 80%;
+    border-bottom: 10px solid #BBCFD3;
+}
+
+.white-text {
+    color: white;
+}
+
+.btn-custom {
+    background-color: #46747E;
+    border-color: #46747E;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #30747E;
+    border-color: #30747E;
+    color: white;
+}
+
+
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-bold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.blue-dim-text {
+    color: #BBCFD3;
+}
+
+.body-text {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.photo-circle {
+    border-radius: 50%;
+    border: 15px solid #BBCFD3;
+}
