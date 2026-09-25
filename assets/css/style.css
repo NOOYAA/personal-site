@@ -4,8 +4,16 @@ body {
 
 #hero {
     background-color: #092328;
+    background-image: radial-gradient(#FFF 1px, transparent 0);
+    background-size: 6rem 6rem;
     height: 80%;
     border-bottom: 10px solid #BBCFD3;
+}
+
+#resume {
+    display: flex;
+    background-color: red;
+    height: 80%;
 }
 
 .white-text {
@@ -55,4 +63,10 @@ body {
 .photo-circle {
     border-radius: 50%;
     border: 15px solid #BBCFD3;
+}
+
+@media (min-width: 1200px) {
+    .to-bottom {
+        margin-top: 25%;
+    }
 }
