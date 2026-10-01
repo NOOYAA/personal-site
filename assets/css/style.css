@@ -47,6 +47,15 @@ body {
   font-style: normal;
 }
 
+.inconsolata {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
 .blue-dim-text {
     color: #BBCFD3;
 }
@@ -69,4 +78,8 @@ body {
     .to-bottom {
         margin-top: 25%;
     }
+}
+
+.background-small {
+    background-color: #BBCFD3;
 }
