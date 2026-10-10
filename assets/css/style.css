@@ -10,12 +10,6 @@ body {
     border-bottom: 10px solid #BBCFD3;
 }
 
-#resume {
-    display: flex;
-    background-color: red;
-    height: 80%;
-}
-
 .white-text {
     color: white;
 }
@@ -74,12 +68,22 @@ body {
     border: 15px solid #BBCFD3;
 }
 
+.dark-blue-text {
+    color: #092328;
+}
+
+
+
 @media (min-width: 1200px) {
     .to-bottom {
-        margin-top: 25%;
+        margin-top: 20%;
     }
 }
 
 .background-small {
     background-color: #BBCFD3;
+}
+
+.background-small-dark {
+    background-color: #092328;
 }
