@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #hero {
     background-color: #092328;
     background-image: radial-gradient(#FFF 1px, transparent 0);
@@ -22,6 +26,18 @@ body {
 
 .btn-custom:hover {
     background-color: #30747E;
+    border-color: #30747E;
+    color: white;
+}
+
+.btn-dark-custom {
+    
+    border-color: #092328;
+    color: #46747E;
+}
+
+.btn-dark-custom:hover {
+    background-color: #092328;
     border-color: #30747E;
     color: white;
 }
@@ -72,7 +88,9 @@ body {
     color: #092328;
 }
 
-
+#about-me {
+    border-bottom: 10px solid #BBCFD3;
+}
 
 @media (min-width: 1200px) {
     .to-bottom {
@@ -86,4 +104,16 @@ body {
 
 .background-small-dark {
     background-color: #092328;
+}
+
+.rm-m {
+    margin-bottom: 0;
+}
+
+.rm-p {
+    padding-bottom: 0;
+}
+
+.font-size-rem {
+    font-size: 0.1rem;
 }
